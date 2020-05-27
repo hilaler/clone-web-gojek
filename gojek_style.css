@@ -1,0 +1,198 @@
+header{
+    display: block;
+}
+body{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'MaisonNeue-Book',sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+.container_header{
+    font-size: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    max-width: unset;
+    background-color: white;
+    transition: all .3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        border: 1px solid #f0eaea;
+    box-shadow: 2px 2px #cacccf;
+}
+.gambar img{
+    border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+        border-bottom-style: none;
+    max-width: 100%;
+    margin: none;
+    width: 140px;
+    height: 45px;
+}
+.container_allign {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+a{
+    background-color: transparent;
+    outline: 0;
+        outline-color: initial;
+        outline-style: initial;
+        outline-width: 0px;
+}
+.row_link_header{
+    display: flex;
+    justify-content: center;
+}
+.link_header{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none; /*menghilangkan underline pada hypertext */
+}
+.link_header a:hover { /*merubah warna saat ada point menunjuk */
+    cursor: pointer;
+    color: #4cc359;
+}
+.link_header a{
+    text-decoration: none; /*menghapus dot di list */
+    color: black; 
+}
+.gambar{
+    margin-left: 150px;
+}
+.content-background{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    position: relative;
+}
+.content img{
+    margin-top: 76px;
+    width: 100%;
+}
+.content{
+    width:100%;
+}
+.donasi{
+    display:block;
+    width:120px;
+    text-align:center;
+    text-decoration:none;
+    background-color: #4cc359;
+    padding:5px 4px;
+    border-radius:8px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin:0 auto;
+    color: whitesmoke;
+    box-shadow: 2px 2px #cacccf;
+    /* margin-top: -50px; */
+}
+.describe{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.33;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.container_service{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.box_service{
+    border: 1px solid #e8e8e8;
+    box-shadow: 2px 2px #cacccf;
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+.box_service p{
+    padding-top: 5px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.box_service img{
+    border-style: none;
+    max-width: 100%;
+    justify-self: center;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.patokan{
+    margin-left: 50px;
+}
+.patokan p{
+    padding-top: 5px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.informasi{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.isi_info{
+    padding: 50px 50px;
+}
+.isi_info img{
+    width: 700px;
+    border-radius: 5%;
+}
+.isi_info p{
+    padding-top: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.isi_info a{
+    text-decoration: none;
+    color: #4cc359; 
+    padding-top: 5px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.isi_info a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container_footer{
+    font-size: 1rem;
+    width: 100%;
+    z-index: 11;
+    max-width: unset;
+    background-color: black;
+    margin: 0px;
+}
+.content_footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    align-items: center;
+}
