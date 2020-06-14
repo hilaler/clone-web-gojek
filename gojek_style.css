@@ -187,12 +187,56 @@ a{
     width: 100%;
     z-index: 11;
     max-width: unset;
-    background-color: black;
+    background-color: #25282b;
     margin: 0px;
+    font-family: 'MaisonNeue-Book',sans-serif;
 }
 .content_footer{
     display: flex;
-    flex-flow: column;
-    justify-content: left;
+    flex-flow: row;
+    justify-content: space-evenly;
     align-items: center;
+}
+.column_footer{
+    display: flex;
+    flex-flow: column;
+}
+.logo_footer{
+    width: 210px;
+    height: 60px;
+}
+.footer{
+    margin: 15px;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4cc359
+}
+.media h2{
+    color: white;
+    font-family: 'MaisonNeue-Book',sans-serif;
+}
+.app_download{
+    width: 160px;
+    height: 50px;
+}
+.media{
+    list-style: none;
+    text-decoration: none;
+}
+.media a{
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 0px;
 }
